@@ -16,13 +16,13 @@ includeImmediateChildren(file("common/implementation"), "implementation")
 
 includeImmediateChildren(file("common/addons"), "addon")
 
-// Plugin-only fork: Bukkit platform ONLY.
-// Dropped platforms vs upstream: fabric, forge, quilt, sponge, minestom, allay, cli,
-// merged, mixin-common, mixin-lifecycle.
+// Bukkit platform (plugin) + the mod platforms (Terra-K7 Fabric mod port, option C).
+// Mod modules re-enabled 2026-06-27 for the mod port: fabric + mixin-common + mixin-lifecycle.
+// Still dropped vs upstream: forge, quilt, sponge, minestom, allay, cli, merged.
 include(":platforms:bukkit")
 include(":platforms:bukkit:common")
 includeImmediateChildren(file("platforms/bukkit/nms"), "Bukkit NMS")
-
+include(":platforms:fabric")
 pluginManagement {
     repositories {
         gradlePluginPortal()
