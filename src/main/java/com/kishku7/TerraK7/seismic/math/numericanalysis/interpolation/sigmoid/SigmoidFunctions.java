@@ -1,0 +1,14 @@
+package com.kishku7.TerraK7.seismic.math.numericanalysis.interpolation.sigmoid;
+
+public class SigmoidFunctions {
+    /**
+     * Returns the result of a logistic curve function.
+     *
+     * @param x the input value.
+     *
+     * @return the value of the logistic curve at the given input.
+     */
+    public static double logisticCurve(double x) {
+        return 1 / (1 + Math.exp(-x));
+    }
+}
