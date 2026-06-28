@@ -8,7 +8,6 @@
 package com.dfsek.terra.addons.biome;
 
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import com.dfsek.terra.api.properties.Context;
 import com.dfsek.terra.api.world.biome.Biome;
