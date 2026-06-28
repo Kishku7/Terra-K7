@@ -1,0 +1,117 @@
+package com.kishku7.TerraK7.paralithic.node.binary.booleans;
+
+import com.kishku7.TerraK7.paralithic.node.Constant;
+import com.kishku7.TerraK7.paralithic.node.Node;
+import com.kishku7.TerraK7.paralithic.node.binary.BinaryNode;
+import org.jetbrains.annotations.NotNull;
+import org.objectweb.asm.Label;
+import org.objectweb.asm.MethodVisitor;
+
+import static org.objectweb.asm.Opcodes.DCMPG;
+import static org.objectweb.asm.Opcodes.DCONST_0;
+import static org.objectweb.asm.Opcodes.DCONST_1;
+import static org.objectweb.asm.Opcodes.GOTO;
+import static org.objectweb.asm.Opcodes.IFEQ;
+import static org.objectweb.asm.Opcodes.IFGE;
+import static org.objectweb.asm.Opcodes.IFGT;
+import static org.objectweb.asm.Opcodes.IFLE;
+import static org.objectweb.asm.Opcodes.IFLT;
+import static org.objectweb.asm.Opcodes.IFNE;
+
+
+public class ComparisonNode extends BinaryNode {
+    private final Op op;
+
+    public ComparisonNode(Node left, Node right, Op op) {
+        super(left, right);
+        this.op = op;
+    }
+
+    private static int toInstruction(Op op) {
+        switch(op) {
+            case EQ:
+                return IFEQ;
+            case GT:
+                return IFGT;
+            case LT:
+                return IFLT;
+            case NEQ:
+                return IFNE;
+            case GT_EQ:
+                return IFGE;
+            case LT_EQ:
+                return IFLE;
+            default:
+                throw new IllegalArgumentException("Not comparison: " + op);
+        }
+    }
+
+    @Override
+    public void applyOperand(MethodVisitor visitor, String generatedImplementationName) {
+        Label endIf = new Label();
+        Label valid = new Label();
+        left.apply(visitor, generatedImplementationName);
+        right.apply(visitor, generatedImplementationName);
+        visitor.visitInsn(DCMPG); // Compare doubles on stack
+        visitor.visitJumpInsn(toInstruction(op), valid); // Jump to end if value matches operator
+        visitor.visitInsn(DCONST_0);
+        visitor.visitJumpInsn(GOTO, endIf);
+        visitor.visitLabel(valid);
+        visitor.visitInsn(DCONST_1);
+        visitor.visitLabel(endIf);
+    }
+
+    @Override
+    public void apply(@NotNull MethodVisitor visitor, String generatedImplementationName) {
+        applyOperand(visitor, generatedImplementationName);
+    }
+
+    @Override
+    public double eval(double[] localVariables, double... inputs) {
+        double l = left.eval(localVariables, inputs);
+        double r = right.eval(localVariables, inputs);
+        switch(op) {
+            case EQ:
+                return l == r ? 1 : 0;
+            case GT:
+                return l > r ? 1 : 0;
+            case LT:
+                return l < r ? 1 : 0;
+            case NEQ:
+                return l != r ? 1 : 0;
+            case GT_EQ:
+                return l >= r ? 1 : 0;
+            case LT_EQ:
+                return l <= r ? 1 : 0;
+            default:
+                throw new IllegalArgumentException("Not comparison: " + op);
+        }
+    }
+
+    @Override
+    public Op getOp() {
+        return op;
+    }
+
+    @Override
+    public Node constantSimplify() {
+        double l = ((Constant) left).getValue();
+        double r = ((Constant) right).getValue();
+        switch(op) {
+            case EQ:
+                return Constant.of(l == r ? 1 : 0);
+            case GT:
+                return Constant.of(l > r ? 1 : 0);
+            case LT:
+                return Constant.of(l < r ? 1 : 0);
+            case NEQ:
+                return Constant.of(l != r ? 1 : 0);
+            case GT_EQ:
+                return Constant.of(l >= r ? 1 : 0);
+            case LT_EQ:
+                return Constant.of(l <= r ? 1 : 0);
+            default:
+                throw new IllegalArgumentException("Not comparison: " + op);
+        }
+    }
+}
