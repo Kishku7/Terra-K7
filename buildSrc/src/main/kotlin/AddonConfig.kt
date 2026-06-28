@@ -21,7 +21,7 @@ fun Project.addonDir(dir: File, task: Task) {
                 logger.info("Deleting old addon: " + it.absolutePath)
                 it.delete()
             }
-            forSubProjects(":common:addons") {
+            forSubProjects(":addons") {
                 val jar = tasks.named("shadowJar").get() as ShadowJar
                 
                 val boot = if (extra.has("bootstrap") && extra.get("bootstrap") as Boolean) "bootstrap/" else ""

@@ -23,7 +23,7 @@ import kotlin.io.path.exists
 
 private fun Project.installAddonsInto(dest: Path) {
     FileSystems.newFileSystem(dest, mapOf("create" to "false"), null).use { fs ->
-        forSubProjects(":common:addons") {
+        forSubProjects(":addons") {
             val jar = getJarTask()
             
             logger.info("Packaging addon ${jar.archiveFileName.get()} to $dest. size: ${jar.archiveFile.get().asFile.length() / 1024}KB")
@@ -68,7 +68,7 @@ fun Project.configureDistribution() {
     }
     
     val compileAddons = tasks.create("compileAddons") {
-        forSubProjects(":common:addons") {
+        forSubProjects(":addons") {
             afterEvaluate {
                 dependsOn(getJarTask())
             }
@@ -114,14 +114,14 @@ fun Project.configureDistribution() {
                 resources.computeIfAbsent("metapacks") { ArrayList() }.add(it.name)
             }
             
-            val langDir = File("${project(":common:implementation").buildDir}/resources/main/lang/")
+            val langDir = File("${project(":shared_common:implementation").buildDir}/resources/main/lang/")
             
             langDir.walkTopDown().forEach {
                 if (it.isDirectory || !it.name.endsWith(".yml")) return@forEach
                 resources.computeIfAbsent("lang") { ArrayList() }.add(it.name)
             }
             
-            forSubProjects(":common:addons") {
+            forSubProjects(":addons") {
                 val jar = getJarTask().archiveFileName.get()
                 resources.computeIfAbsent(
                     if (extra.has("bootstrap") && extra.get("bootstrap") as Boolean) "addons/bootstrap"

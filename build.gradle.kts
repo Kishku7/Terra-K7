@@ -2,9 +2,10 @@
 // preRelease(false): no git hash in version (vendored tree is not a git repo here).
 preRelease(false)
 
-versionProjects(":common:api", version("1.0"))
-versionProjects(":common:implementation", version("1.0"))
-versionProjects(":platforms", version("1.0"))
+versionProjects(":shared_common:api", version("1.0"))
+versionProjects(":shared_common:implementation", version("1.0"))
+versionProjects(":Fabric", version("1.0"))
+versionProjects(":Plugin", version("1.0"))
 
 
 allprojects {
@@ -42,11 +43,10 @@ allprojects {
 }
 
 afterEvaluate {
-    forImmediateSubProjects(":platforms") {
-        configureDistribution()
-    }
-    project(":platforms:bukkit:common").configureDistribution()
-    forSubProjects(":common:addons") {
+    project(":Fabric").configureDistribution()
+    project(":Plugin").configureDistribution()
+    project(":Plugin:common").configureDistribution()
+    forSubProjects(":addons") {
         apply(plugin = "com.gradleup.shadow")
 
         tasks.named("build") {
@@ -54,8 +54,8 @@ afterEvaluate {
         }
 
         dependencies {
-            "compileOnly"(project(":common:api"))
-            "testImplementation"(project(":common:api"))
+            "compileOnly"(project(":shared_common:api"))
+            "testImplementation"(project(":shared_common:api"))
         }
     }
 }

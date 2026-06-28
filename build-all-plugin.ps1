@@ -15,18 +15,18 @@ Write-Host ("JAVA_HOME = {0}" -f $env:JAVA_HOME)
 
 Push-Location $repo
 try {
-    & (Join-Path $repo "gradlew.bat") ":platforms:bukkit:build" --no-daemon --stacktrace
+    & (Join-Path $repo "gradlew.bat") ":Plugin:build" --no-daemon --stacktrace
     if ($LASTEXITCODE -ne 0) { throw "Gradle build FAILED (exit $LASTEXITCODE)" }
 } finally {
     Pop-Location
 }
 
-$jar = Get-ChildItem (Join-Path $repo "platforms\bukkit\build\libs") -Filter "*-shaded.jar" -ErrorAction SilentlyContinue |
+$jar = Get-ChildItem (Join-Path $repo "Plugin\build\libs") -Filter "*-shaded.jar" -ErrorAction SilentlyContinue |
     Sort-Object LastWriteTime | Select-Object -Last 1
-if (-not $jar) { throw "No shaded jar produced under platforms\bukkit\build\libs" }
+if (-not $jar) { throw "No shaded jar produced under Plugin\build\libs" }
 
 # Terra-bukkit-<ver>-shaded.jar -> <ver>
-$ver = ($jar.BaseName -replace '^Terra-bukkit-', '' -replace '-shaded$', '')
+$ver = ($jar.BaseName -replace '^Terra-Plugin-', '' -replace '-shaded$', '')
 $out = Join-Path $dist ("terra-k7-{0}-plugin.jar" -f $ver)
 Copy-Item $jar.FullName $out -Force
 Write-Host ("  -> {0}  ({1:N0} KB)" -f $out, ($jar.Length / 1KB))
