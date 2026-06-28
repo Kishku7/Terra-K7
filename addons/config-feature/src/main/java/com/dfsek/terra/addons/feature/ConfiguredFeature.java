@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.addons.feature;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import com.dfsek.terra.api.structure.Structure;
 import com.dfsek.terra.api.structure.feature.Distributor;

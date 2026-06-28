@@ -7,11 +7,11 @@
 
 package com.dfsek.terra.addons.noise.config.templates.noise;
 
-import com.dfsek.seismic.algorithms.sampler.noise.cellular.CellularSampler;
-import com.dfsek.seismic.algorithms.sampler.noise.cellular.CellularStyleSampler;
-import com.dfsek.seismic.algorithms.sampler.noise.simplex.OpenSimplex2Sampler;
-import com.dfsek.seismic.type.DistanceFunction;
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.cellular.CellularSampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.cellular.CellularStyleSampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.simplex.OpenSimplex2Sampler;
+import com.kishku7.TerraK7.seismic.type.DistanceFunction;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;
 

@@ -1,6 +1,6 @@
 package com.dfsek.terra.config.pack;
 
-import com.dfsek.paralithic.eval.parser.Parser.ParseOptions;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser.ParseOptions;
 import com.dfsek.tectonic.api.config.template.ConfigTemplate;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;

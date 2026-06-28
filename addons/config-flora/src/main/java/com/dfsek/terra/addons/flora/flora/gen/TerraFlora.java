@@ -7,15 +7,15 @@
 
 package com.dfsek.terra.addons.flora.flora.gen;
 
-import com.dfsek.seismic.type.Rotation;
-import com.dfsek.seismic.type.sampler.Sampler;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.random.RandomGenerator;
-import java.util.random.RandomGeneratorFactory;
+import com.kishku7.TerraK7.seismic.random.Xoroshiro128PlusPlus;
 
 import com.dfsek.terra.api.block.state.BlockState;
 import com.dfsek.terra.api.block.state.properties.enums.Direction;
@@ -88,7 +88,7 @@ public class TerraFlora implements Structure {
                 location.getZ(), world.getSeed());
             if(doRotation) {
                 Direction oneFace = new ArrayList<>(faces).get(
-                    RandomGeneratorFactory.<RandomGenerator.SplittableGenerator>of("Xoroshiro128PlusPlus")
+                    Xoroshiro128PlusPlus
                         .create(location.getX() ^ location.getZ())
                         .nextInt(faces.size())); // Get RandomGenerator face.
             }

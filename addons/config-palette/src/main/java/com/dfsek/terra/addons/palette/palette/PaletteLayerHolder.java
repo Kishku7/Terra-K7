@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.addons.palette.palette;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 import org.jetbrains.annotations.NotNull;
 
 import com.dfsek.terra.api.block.state.BlockState;

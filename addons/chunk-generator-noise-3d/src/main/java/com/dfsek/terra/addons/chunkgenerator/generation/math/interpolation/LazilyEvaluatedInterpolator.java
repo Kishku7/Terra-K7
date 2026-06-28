@@ -1,7 +1,7 @@
 package com.dfsek.terra.addons.chunkgenerator.generation.math.interpolation;
 
-import com.dfsek.seismic.math.floatingpoint.FloatingPointFunctions;
-import com.dfsek.seismic.math.numericanalysis.interpolation.InterpolationFunctions;
+import com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointFunctions;
+import com.kishku7.TerraK7.seismic.math.numericanalysis.interpolation.InterpolationFunctions;
 
 import com.dfsek.terra.addons.chunkgenerator.config.noise.BiomeNoiseProperties;
 import com.dfsek.terra.api.properties.PropertyKey;

@@ -9,7 +9,7 @@ package com.dfsek.terra.api.config;
 
 import ca.solostudios.strata.version.Version;
 import ca.solostudios.strata.version.VersionRange;
-import com.dfsek.paralithic.eval.parser.Parser.ParseOptions;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser.ParseOptions;
 
 import java.nio.file.Path;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.biome.extrusion.extrusions;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import java.util.Collection;
 import java.util.function.Predicate;

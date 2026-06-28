@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.api.block.state.properties.enums;
 
-import com.dfsek.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.Rotation;
 
 import com.dfsek.terra.api.util.generic.Construct;
 

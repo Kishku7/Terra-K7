@@ -13,7 +13,7 @@ import com.dfsek.terra.addons.terrascript.parser.lang.Scope;
 import com.dfsek.terra.addons.terrascript.parser.lang.operations.BinaryOperation;
 import com.dfsek.terra.addons.terrascript.tokenizer.Position;
 
-import static com.dfsek.seismic.math.floatingpoint.FloatingPointConstants.EPSILON;
+import static com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointConstants.EPSILON;
 
 
 public class EqualsStatement extends BinaryOperation<Object, Boolean> {

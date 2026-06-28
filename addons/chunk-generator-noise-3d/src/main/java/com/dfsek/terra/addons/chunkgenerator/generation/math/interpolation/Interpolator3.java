@@ -8,7 +8,7 @@
 package com.dfsek.terra.addons.chunkgenerator.generation.math.interpolation;
 
 
-import com.dfsek.seismic.math.numericanalysis.interpolation.InterpolationFunctions;
+import com.kishku7.TerraK7.seismic.math.numericanalysis.interpolation.InterpolationFunctions;
 
 
 /**

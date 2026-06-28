@@ -17,7 +17,7 @@
 
 package com.dfsek.terra.mod.mixin.implementations.terra.chunk;
 
-import com.dfsek.seismic.math.coord.CoordFunctions;
+import com.kishku7.TerraK7.seismic.math.coord.CoordFunctions;
 import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Implements;

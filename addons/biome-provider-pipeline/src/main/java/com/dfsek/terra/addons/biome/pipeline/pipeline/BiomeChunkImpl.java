@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.biome.pipeline.pipeline;
 
-import com.dfsek.seismic.math.floatingpoint.FloatingPointFunctions;
+import com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointFunctions;
 
 import java.util.List;
 

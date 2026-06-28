@@ -17,7 +17,7 @@
 
 package com.dfsek.terra.mod.mixin.implementations.terra.entity;
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 import org.spongepowered.asm.mixin.Implements;
 import org.spongepowered.asm.mixin.Interface;
 import org.spongepowered.asm.mixin.Mixin;

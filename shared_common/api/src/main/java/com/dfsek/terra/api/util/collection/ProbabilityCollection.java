@@ -7,10 +7,10 @@
 
 package com.dfsek.terra.api.util.collection;
 
-import com.dfsek.seismic.math.normalization.NormalizationFunctions;
-import com.dfsek.seismic.type.sampler.Sampler;
-import com.dfsek.seismic.type.vector.Vector3;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.math.normalization.NormalizationFunctions;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Collection;

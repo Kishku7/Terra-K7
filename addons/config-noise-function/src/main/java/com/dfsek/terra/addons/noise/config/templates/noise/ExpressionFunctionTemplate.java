@@ -7,10 +7,10 @@
 
 package com.dfsek.terra.addons.noise.config.templates.noise;
 
-import com.dfsek.paralithic.eval.parser.Parser.ParseOptions;
-import com.dfsek.paralithic.eval.tokenizer.ParseException;
-import com.dfsek.paralithic.sampler.noise.ExpressionNoiseFunction;
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser.ParseOptions;
+import com.kishku7.TerraK7.paralithic.eval.tokenizer.ParseException;
+import com.kishku7.TerraK7.paralithic.sampler.noise.ExpressionNoiseFunction;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;
 

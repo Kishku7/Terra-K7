@@ -7,9 +7,9 @@
 
 package com.dfsek.terra.addons.terrascript.script.functions;
 
-import com.dfsek.seismic.math.floatingpoint.FloatingPointFunctions;
-import com.dfsek.seismic.type.vector.Vector2;
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointFunctions;
+import com.kishku7.TerraK7.seismic.type.vector.Vector2;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 
 import com.dfsek.terra.addons.terrascript.parser.exceptions.ParseException;
 import com.dfsek.terra.addons.terrascript.parser.lang.ImplementationArguments;

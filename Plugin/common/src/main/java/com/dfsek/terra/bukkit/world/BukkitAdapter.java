@@ -18,7 +18,7 @@
 package com.dfsek.terra.bukkit.world;
 
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
 import org.bukkit.Location;
 import org.bukkit.Material;

@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.generation.feature.config;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 import com.dfsek.tectonic.api.config.template.ValidatedConfigTemplate;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;

@@ -17,9 +17,9 @@
 
 package com.dfsek.terra.config.preprocessor;
 
-import com.dfsek.paralithic.eval.parser.Parser;
-import com.dfsek.paralithic.eval.parser.Parser.ParseOptions;
-import com.dfsek.paralithic.eval.tokenizer.ParseException;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser.ParseOptions;
+import com.kishku7.TerraK7.paralithic.eval.tokenizer.ParseException;
 import com.dfsek.tectonic.api.config.Configuration;
 import com.dfsek.tectonic.api.depth.DepthTracker;
 import com.dfsek.tectonic.api.exception.LoadException;

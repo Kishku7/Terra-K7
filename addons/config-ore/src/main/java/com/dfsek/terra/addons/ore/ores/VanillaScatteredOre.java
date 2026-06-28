@@ -1,7 +1,7 @@
 package com.dfsek.terra.addons.ore.ores;
 
-import com.dfsek.seismic.type.Rotation;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import java.util.Map;
 import java.util.random.RandomGenerator;

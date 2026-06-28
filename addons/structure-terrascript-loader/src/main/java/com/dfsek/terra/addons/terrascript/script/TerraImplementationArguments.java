@@ -7,9 +7,9 @@
 
 package com.dfsek.terra.addons.terrascript.script;
 
-import com.dfsek.seismic.type.Rotation;
-import com.dfsek.seismic.type.vector.Vector3;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import java.util.HashMap;
 import java.util.Map;

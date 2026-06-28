@@ -11,6 +11,6 @@ dependencies {
 
     api("com.dfsek.tectonic", "common", Versions.Libraries.tectonic)
     api("ca.solo-studios", "strata", Versions.Libraries.strata)
-    api("com.dfsek", "paralithic", Versions.Libraries.paralithic)
-    api("com.dfsek", "seismic", Versions.Libraries.seismic)
+    api("com.kishku7.TerraK7", "paralithic", Versions.Libraries.paralithic)
+    api("com.kishku7.TerraK7", "seismic", Versions.Libraries.seismic)
 }

@@ -7,10 +7,10 @@
 
 package com.dfsek.terra.addons.terrascript.script;
 
-import com.dfsek.seismic.math.algebra.AlgebraFunctions;
-import com.dfsek.seismic.math.trigonometry.TrigonometryFunctions;
-import com.dfsek.seismic.type.Rotation;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.math.algebra.AlgebraFunctions;
+import com.kishku7.TerraK7.seismic.math.trigonometry.TrigonometryFunctions;
+import com.kishku7.TerraK7.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,8 +1,8 @@
 package com.dfsek.terra.addons.commands.locate;
 
 
-import com.dfsek.seismic.type.vector.Vector2Int;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.vector.Vector2Int;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 import org.incendo.cloud.CommandManager;
 import org.incendo.cloud.component.DefaultValue;
 import org.incendo.cloud.context.CommandContext;

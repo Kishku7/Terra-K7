@@ -19,7 +19,7 @@ package com.dfsek.terra.config.pack;
 
 import ca.solostudios.strata.version.Version;
 import ca.solostudios.strata.version.VersionRange;
-import com.dfsek.paralithic.eval.parser.Parser.ParseOptions;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser.ParseOptions;
 import com.dfsek.tectonic.api.TypeRegistry;
 import com.dfsek.tectonic.api.config.Configuration;
 import com.dfsek.tectonic.api.config.template.object.ObjectTemplate;

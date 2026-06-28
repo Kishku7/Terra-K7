@@ -1,7 +1,7 @@
 package com.dfsek.terra.addons.image.operator;
 
-import com.dfsek.seismic.math.floatingpoint.FloatingPointFunctions;
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointFunctions;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import com.dfsek.terra.addons.image.image.Image;
 import com.dfsek.terra.addons.image.util.ColorUtil;

@@ -1,10 +1,10 @@
 package com.dfsek.terra.addons.noise.config.templates.normalizer;
 
 
-import com.dfsek.seismic.algorithms.sampler.normalizer.CubicSplineNormalizer;
-import com.dfsek.seismic.type.CubicSpline;
-import com.dfsek.seismic.type.CubicSpline.Point;
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.normalizer.CubicSplineNormalizer;
+import com.kishku7.TerraK7.seismic.type.CubicSpline;
+import com.kishku7.TerraK7.seismic.type.CubicSpline.Point;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 import com.dfsek.tectonic.api.config.template.annotations.Value;
 
 import java.util.List;

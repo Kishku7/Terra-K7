@@ -1,11 +1,11 @@
 package com.dfsek.terra.addons.noise.paralithic;
 
-import com.dfsek.paralithic.eval.tokenizer.ParseException;
-import com.dfsek.paralithic.functions.Function;
-import com.dfsek.paralithic.functions.dynamic.noise.NoiseFunction2;
-import com.dfsek.paralithic.functions.dynamic.noise.NoiseFunction3;
-import com.dfsek.paralithic.functions.dynamic.noise.SaltedNoiseFunction2;
-import com.dfsek.paralithic.functions.dynamic.noise.SaltedNoiseFunction3;
+import com.kishku7.TerraK7.paralithic.eval.tokenizer.ParseException;
+import com.kishku7.TerraK7.paralithic.functions.Function;
+import com.kishku7.TerraK7.paralithic.functions.dynamic.noise.NoiseFunction2;
+import com.kishku7.TerraK7.paralithic.functions.dynamic.noise.NoiseFunction3;
+import com.kishku7.TerraK7.paralithic.functions.dynamic.noise.SaltedNoiseFunction2;
+import com.kishku7.TerraK7.paralithic.functions.dynamic.noise.SaltedNoiseFunction3;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -8,8 +8,8 @@
 package com.dfsek.terra.addons.noise.config.templates.noise.fractal;
 
 
-import com.dfsek.seismic.algorithms.sampler.noise.fractal.RidgedFractalSampler;
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.fractal.RidgedFractalSampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 
 public class RidgedFractalTemplate extends FractalTemplate<RidgedFractalSampler> {

@@ -17,7 +17,7 @@
 
 package com.dfsek.terra.bukkit.world.block.state;
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 import org.bukkit.block.Container;
 import org.bukkit.block.CreatureSpawner;
 import org.bukkit.block.Sign;

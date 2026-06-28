@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.api.event.events.world.generation;
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 import org.jetbrains.annotations.NotNull;
 
 import com.dfsek.terra.api.block.entity.Container;

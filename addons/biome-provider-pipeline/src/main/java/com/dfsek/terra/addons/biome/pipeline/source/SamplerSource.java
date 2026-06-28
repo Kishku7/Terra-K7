@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.addons.biome.pipeline.source;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import com.dfsek.terra.addons.biome.pipeline.api.Source;
 import com.dfsek.terra.addons.biome.pipeline.api.biome.PipelineBiome;

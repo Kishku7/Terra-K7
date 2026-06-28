@@ -1,6 +1,6 @@
 package com.dfsek.terra.api.world;
 
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import java.util.Objects;
 

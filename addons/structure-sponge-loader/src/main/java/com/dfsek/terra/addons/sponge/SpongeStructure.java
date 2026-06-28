@@ -7,9 +7,9 @@
 
 package com.dfsek.terra.addons.sponge;
 
-import com.dfsek.seismic.type.Rotation;
-import com.dfsek.seismic.type.vector.Vector2Int;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.vector.Vector2Int;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import java.util.random.RandomGenerator;
 

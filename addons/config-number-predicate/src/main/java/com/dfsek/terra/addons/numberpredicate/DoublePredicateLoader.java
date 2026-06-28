@@ -1,10 +1,10 @@
 package com.dfsek.terra.addons.numberpredicate;
 
-import com.dfsek.paralithic.Expression;
-import com.dfsek.paralithic.eval.parser.Parser;
-import com.dfsek.paralithic.eval.parser.Parser.ParseOptions;
-import com.dfsek.paralithic.eval.parser.Scope;
-import com.dfsek.paralithic.eval.tokenizer.ParseException;
+import com.kishku7.TerraK7.paralithic.Expression;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser.ParseOptions;
+import com.kishku7.TerraK7.paralithic.eval.parser.Scope;
+import com.kishku7.TerraK7.paralithic.eval.tokenizer.ParseException;
 import com.dfsek.tectonic.api.depth.DepthTracker;
 import com.dfsek.tectonic.api.exception.LoadException;
 import com.dfsek.tectonic.api.loader.ConfigLoader;

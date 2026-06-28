@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.image.sampler;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import com.dfsek.terra.addons.image.colorsampler.ColorSampler;
 import com.dfsek.terra.addons.image.util.ColorUtil;

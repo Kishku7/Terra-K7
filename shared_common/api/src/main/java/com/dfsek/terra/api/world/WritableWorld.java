@@ -1,7 +1,7 @@
 package com.dfsek.terra.api.world;
 
-import com.dfsek.seismic.type.vector.Vector3;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import com.dfsek.terra.api.block.state.BlockState;
 import com.dfsek.terra.api.entity.Entity;

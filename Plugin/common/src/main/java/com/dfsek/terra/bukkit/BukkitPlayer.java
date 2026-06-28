@@ -17,7 +17,7 @@
 
 package com.dfsek.terra.bukkit;
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 import io.papermc.lib.PaperLib;
 import org.bukkit.Location;
 

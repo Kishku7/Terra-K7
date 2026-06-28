@@ -1,7 +1,7 @@
 package com.dfsek.terra.addons.feature.distributor.distributors;
 
-import com.dfsek.seismic.algorithms.hashing.HashingFunctions;
-import com.dfsek.seismic.math.integer.IntegerFunctions;
+import com.kishku7.TerraK7.seismic.algorithms.hashing.HashingFunctions;
+import com.kishku7.TerraK7.seismic.math.integer.IntegerFunctions;
 import com.dfsek.terra.api.structure.feature.Distributor;
 
 public class PaddedGridDistributor implements Distributor {

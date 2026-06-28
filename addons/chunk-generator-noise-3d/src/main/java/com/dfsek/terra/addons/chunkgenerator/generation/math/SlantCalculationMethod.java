@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.chunkgenerator.generation.math;
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 
 import com.dfsek.terra.addons.chunkgenerator.generation.math.samplers.Sampler3D;
 

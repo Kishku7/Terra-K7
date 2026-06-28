@@ -1,8 +1,8 @@
 package com.dfsek.terra.addons.noise.config.templates.noise;
 
-import com.dfsek.seismic.algorithms.sampler.noise.PseudoErosionSampler;
-import com.dfsek.seismic.algorithms.sampler.noise.simplex.OpenSimplex2Sampler;
-import com.dfsek.seismic.type.sampler.DerivativeSampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.PseudoErosionSampler;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.simplex.OpenSimplex2Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.DerivativeSampler;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;
 

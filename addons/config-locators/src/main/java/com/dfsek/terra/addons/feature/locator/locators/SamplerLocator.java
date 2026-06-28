@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.addons.feature.locator.locators;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import java.util.List;
 

@@ -7,8 +7,8 @@
 
 package com.dfsek.terra.addons.biome.pipeline.stage.mutators;
 
-import com.dfsek.seismic.type.sampler.Sampler;
-import com.dfsek.seismic.type.vector.Vector2Int;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.vector.Vector2Int;
 
 import java.util.ArrayList;
 import java.util.HashSet;

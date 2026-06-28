@@ -7,11 +7,11 @@
 
 package com.dfsek.terra.addons.ore.ores;
 
-import com.dfsek.seismic.math.floatingpoint.FloatingPointFunctions;
-import com.dfsek.seismic.math.numericanalysis.interpolation.InterpolationFunctions;
-import com.dfsek.seismic.math.trigonometry.TrigonometryFunctions;
-import com.dfsek.seismic.type.Rotation;
-import com.dfsek.seismic.type.vector.Vector3Int;
+import com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointFunctions;
+import com.kishku7.TerraK7.seismic.math.numericanalysis.interpolation.InterpolationFunctions;
+import com.kishku7.TerraK7.seismic.math.trigonometry.TrigonometryFunctions;
+import com.kishku7.TerraK7.seismic.type.Rotation;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3Int;
 
 import java.util.BitSet;
 import java.util.Map;

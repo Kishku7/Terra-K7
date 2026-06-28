@@ -11,5 +11,5 @@ dependencies {
 
 
 
-    implementation("com.dfsek", "paralithic", Versions.Libraries.paralithic)
+    implementation("com.kishku7.TerraK7", "paralithic", Versions.Libraries.paralithic)
 }

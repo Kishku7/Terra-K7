@@ -17,7 +17,7 @@
 
 package com.dfsek.terra.mod.util;
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 import java.util.random.RandomGenerator;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;

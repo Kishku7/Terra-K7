@@ -7,13 +7,13 @@
 
 package com.dfsek.terra.addons.noise.paralithic;
 
-import com.dfsek.paralithic.Expression;
-import com.dfsek.paralithic.eval.parser.Parser;
-import com.dfsek.paralithic.eval.parser.Scope;
-import com.dfsek.paralithic.eval.tokenizer.ParseException;
-import com.dfsek.paralithic.functions.dynamic.Context;
-import com.dfsek.paralithic.functions.dynamic.DynamicFunction;
-import com.dfsek.paralithic.node.Statefulness;
+import com.kishku7.TerraK7.paralithic.Expression;
+import com.kishku7.TerraK7.paralithic.eval.parser.Parser;
+import com.kishku7.TerraK7.paralithic.eval.parser.Scope;
+import com.kishku7.TerraK7.paralithic.eval.tokenizer.ParseException;
+import com.kishku7.TerraK7.paralithic.functions.dynamic.Context;
+import com.kishku7.TerraK7.paralithic.functions.dynamic.DynamicFunction;
+import com.kishku7.TerraK7.paralithic.node.Statefulness;
 
 import java.util.HashMap;
 import java.util.Map;

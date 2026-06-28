@@ -1,7 +1,7 @@
 package com.dfsek.terra.addons.noise.config.templates.noise;
 
-import com.dfsek.seismic.algorithms.sampler.noise.DistanceSampler;
-import com.dfsek.seismic.type.DistanceFunction;
+import com.kishku7.TerraK7.seismic.algorithms.sampler.noise.DistanceSampler;
+import com.kishku7.TerraK7.seismic.type.DistanceFunction;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;
 

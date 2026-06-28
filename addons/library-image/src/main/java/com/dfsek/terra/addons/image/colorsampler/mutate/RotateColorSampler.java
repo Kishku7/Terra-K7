@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.image.colorsampler.mutate;
 
-import com.dfsek.seismic.math.trigonometry.TrigonometryFunctions;
+import com.kishku7.TerraK7.seismic.math.trigonometry.TrigonometryFunctions;
 
 import com.dfsek.terra.addons.image.colorsampler.ColorSampler;
 

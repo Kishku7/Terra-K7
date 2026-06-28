@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.biome.pipeline.stage.expander;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 
 import com.dfsek.terra.addons.biome.pipeline.api.Expander;
 import com.dfsek.terra.addons.biome.pipeline.api.biome.PipelineBiome;

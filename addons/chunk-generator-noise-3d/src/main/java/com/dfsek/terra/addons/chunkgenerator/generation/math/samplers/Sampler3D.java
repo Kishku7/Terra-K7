@@ -7,7 +7,7 @@
 
 package com.dfsek.terra.addons.chunkgenerator.generation.math.samplers;
 
-import com.dfsek.seismic.math.floatingpoint.FloatingPointFunctions;
+import com.kishku7.TerraK7.seismic.math.floatingpoint.FloatingPointFunctions;
 
 import com.dfsek.terra.addons.chunkgenerator.config.noise.BiomeNoiseProperties;
 import com.dfsek.terra.addons.chunkgenerator.generation.math.interpolation.ChunkInterpolator;

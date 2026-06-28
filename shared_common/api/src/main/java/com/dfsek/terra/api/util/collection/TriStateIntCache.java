@@ -3,7 +3,7 @@ package com.dfsek.terra.api.util.collection;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 
-import com.dfsek.seismic.util.UnsafeUtils;
+import com.kishku7.TerraK7.seismic.util.UnsafeUtils;
 
 
 public class TriStateIntCache {

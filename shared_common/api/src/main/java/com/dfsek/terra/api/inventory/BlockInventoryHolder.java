@@ -8,7 +8,7 @@
 package com.dfsek.terra.api.inventory;
 
 
-import com.dfsek.seismic.type.vector.Vector3;
+import com.kishku7.TerraK7.seismic.type.vector.Vector3;
 
 
 public interface BlockInventoryHolder extends InventoryHolder {

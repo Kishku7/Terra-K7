@@ -1,6 +1,6 @@
 package com.dfsek.terra.addons.noise.config.templates;
 
-import com.dfsek.seismic.type.sampler.Sampler;
+import com.kishku7.TerraK7.seismic.type.sampler.Sampler;
 import com.dfsek.tectonic.api.config.template.annotations.Default;
 import com.dfsek.tectonic.api.config.template.annotations.Value;
 import org.jetbrains.annotations.ApiStatus.Experimental;
