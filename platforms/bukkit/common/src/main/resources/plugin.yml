@@ -1,0 +1,9 @@
+name: "Terra-K7"
+main: "com.dfsek.terra.bukkit.TerraBukkitPlugin"
+version: "@VERSION@"
+load: "STARTUP"
+authors: [ "Kishku7", "dfsek", "duplexsystem", "Astrash", "solonovamax", "Sancires", "Aureus", "RogueShade", "OakLoaf" ]
+website: "@WIKI@"
+api-version: "1.21.1"
+description: "@DESCRIPTION@"
+folia-supported: true
