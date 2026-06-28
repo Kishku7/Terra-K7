@@ -49,5 +49,5 @@
     "injectors": {
         "defaultRequire": 1
     },
-    "refmap": "terra.common.refmap.json"
+    "refmap": "terra.refmap.json"
 }
